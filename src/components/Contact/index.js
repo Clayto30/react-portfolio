@@ -25,7 +25,6 @@ function Contact() {
         if (!errorMessage) {
             setFormState({...formState, [e.target.name]: e.target.value });
         }
-        
     };
     
     function handleSubmit(e) {
