@@ -5,7 +5,7 @@
 This portfolio presents users with all the information they can handle about Web Developer Clayton in a single page app!
 
 This web application is deployed on GitHub Pages and the repository is available on GitHub.
-Web Deployment: [Clayton React Portfolio](https://clayto30.github.io/react-portfolio/)
+Web Deployment: [Clayton React Portfolio](https://infinite-sierra-31877.herokuapp.com/).
 
 [GitHub Repostitory](https://github.com/Clayto30/react-portfolio).
 
