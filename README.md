@@ -4,7 +4,6 @@
 
 This portfolio presents users with all the information they can handle about Web Developer Clayton in a single page app!
 
-
 This web application is deployed on GitHub Pages and the repository is available on GitHub.
 Web Deployment: [Clayton React Portfolio](https://clayto30.github.io/react-portfolio/)
 
@@ -26,9 +25,9 @@ Use the node command 'npm start' and open [http://localhost:3000](http://localho
 
 ## Usage 
 
-
-
 ![alt text](public/images/screenshot.jpg)
+
+In order to see the validation of emails on the Contact Page, inspect using Chrome Dev Tools and check the console.
 
 ## Credits
 
