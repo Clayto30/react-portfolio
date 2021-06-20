@@ -2,7 +2,7 @@
 
 ## Description 
 
-This portfolio presents users with all the information they can handle about Web Developer Clayton in a signle page app!
+This portfolio presents users with all the information they can handle about Web Developer Clayton in a single page app!
 
 
 This web application is deployed on GitHub Pages and the repository is available on GitHub.
@@ -14,7 +14,6 @@ Web Deployment: [Clayton React Portfolio](https://clayto30.github.io/react-portf
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Tests](#tests)
 * [Credits](#credits)
 * [License](#license)
 
@@ -30,10 +29,6 @@ Use the node command 'npm start' and open [http://localhost:3000](http://localho
 
 
 ![alt text](public/images/screenshot.jpg)
-
-## Tests
-
-
 
 ## Credits
 

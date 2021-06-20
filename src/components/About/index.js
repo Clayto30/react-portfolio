@@ -1,5 +1,4 @@
 import React from 'react';
-import profileImage from '../../assets/images/about.jpg';
 
 function About() {
     return (
@@ -7,7 +6,7 @@ function About() {
             <h1 id="about">About Me</h1>
             <div className="flex-row">
           <img
-            src={profileImage}
+            src="./assets/images/about.jpg"
             alt="Clayton Goff"
             className="img-thumbnail mx-1"
           />
