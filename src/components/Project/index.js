@@ -1,6 +1,6 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card';
-
+import { Card, Col, Row } from 'react-bootstrap';
+import CardGroup from 'react-bootstrap/CardGroup';
 const projects = [
     {
         name: "Budget Tracker",
@@ -46,24 +46,24 @@ const projects = [
 ]
 function Project() {
     return (
-        <section>
-            <div>
-                {projects.map((projects, i) => 
-                    (
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={projects.projectImage} />
-                            <Card.Body>
-                                <Card.Title>{projects.name}</Card.Title>
-                                <Card.Text>
-                                    {projects.description}
-                                </Card.Text>
-                                <Card.Link href={projects.url}>{projects.name}</Card.Link>
-                            </Card.Body>
-                        </Card>
-                    )
-                )}
-            </div>
-        </section>
+
+        <Row xs={1} md={2} className="g-4">
+            {projects.map((projects, i) =>
+            (
+                <CardGroup>
+                    <Card>
+                        <Card.Img variant="top" src={projects.projectImage} />
+                        <Card.Body>
+                            <Card.Title>{projects.name}</Card.Title>
+                            <Card.Text>
+                                {projects.description}
+                            </Card.Text>
+                            <Card.Link href={projects.url}>{projects.name}</Card.Link>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+            ))}
+        </Row>
     );
 }
 export default Project;

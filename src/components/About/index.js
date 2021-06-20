@@ -10,6 +10,7 @@ function About() {
             alt="Clayton Goff"
             className="img-thumbnail mx-1"
           />
+          <p>Clayton is a full-stack developer seeking to contribute to a web app! He has developed and demonstrated familiarity with the full-stack and working in agile work groups in the UC Berkeley Coding Bootcamp (Jan-July 2021).</p>
       </div>
         </section>
     );
