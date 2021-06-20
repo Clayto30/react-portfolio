@@ -25,7 +25,7 @@ Use the node command 'npm start' and open [http://localhost:3000](http://localho
 
 ## Usage 
 
-![alt text](public/images/screenshot.jpg)
+![alt text](public/assets/images/screenshot.jpg)
 
 In order to see the validation of emails on the Contact Page, inspect using Chrome Dev Tools and check the console.
 
