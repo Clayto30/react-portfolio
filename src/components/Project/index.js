@@ -1,11 +1,13 @@
 import React from 'react';
-import { Card, Col, Row } from 'react-bootstrap';
-import CardGroup from 'react-bootstrap/CardGroup';
+// import Container from 'react-bootstrap/Container';
+// import Card from 'react-bootstrap/Card';
+// import Col from 'react-bootstrap/Col';
+import { Row, Col, Card, Container } from 'react-bootstrap';
+
 const projects = [
     {
         name: "Budget Tracker",
         description: "A budget tracker that works without a wifi connection!",
-        // image
         url: "https://sleepy-sands-14482.herokuapp.com/",
         projectImage: "./assets/images/budget.jpg"
     },
@@ -46,24 +48,25 @@ const projects = [
 ]
 function Project() {
     return (
-
-        <Row xs={1} md={2} className="g-4">
-            {projects.map((projects, i) =>
-            (
-                <CardGroup>
-                    <Card>
-                        <Card.Img variant="top" src={projects.projectImage} />
-                        <Card.Body>
-                            <Card.Title>{projects.name}</Card.Title>
-                            <Card.Text>
-                                {projects.description}
-                            </Card.Text>
-                            <Card.Link href={projects.url}>{projects.name}</Card.Link>
-                        </Card.Body>
-                    </Card>
-                </CardGroup>
-            ))}
-        </Row>
+        <Container>
+            <Row xs={1} md={2} className="g-4">
+                {projects.map((projects, i) =>
+                (
+                    <Col>
+                        <Card>
+                            <Card.Img variant="top" src={projects.projectImage} />
+                            <Card.Body>
+                                <Card.Title>{projects.name}</Card.Title>
+                                <Card.Text>
+                                    {projects.description}
+                                </Card.Text>
+                                <Card.Link href={projects.url}>{projects.name}</Card.Link>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                ))}
+            </Row>
+        </Container>
     );
 }
 export default Project;
