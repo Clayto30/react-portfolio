@@ -49,11 +49,11 @@ const projects = [
 function Project() {
     return (
         <Container>
-            <Row xs={1} md={2} className="g-4">
+            <Row xs={1} md={3} className="g-4">
                 {projects.map((projects, i) =>
                 (
                     <Col>
-                        <Card>
+                        <Card style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={projects.projectImage} />
                             <Card.Body>
                                 <Card.Title>{projects.name}</Card.Title>
