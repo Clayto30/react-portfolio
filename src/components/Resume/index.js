@@ -4,7 +4,7 @@ function Resume() {
     return (
         <div>
             <h2>Resumé:</h2>
-            <a href="./assets/resume.docx" download>
+            <a href="./assets/resume.pdf" download>
                 <p>
                     Click to Download!
                 </p>
