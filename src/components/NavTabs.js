@@ -2,7 +2,7 @@ import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 
 function NavTabs(props) {
-    const tabs = ['About', 'Project', 'Contact', 'Resume'];
+    const tabs = ['About', 'Projects', 'Resume'];
     return (
         <header>
             <Navbar bg="dark" variant="dark">
